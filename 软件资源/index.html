@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            margin: 0%;
+        }
+        .text-nav
+        {
+            /* background-color: green; */
+            border: solid 5px black;
+            height: 36px;
+        }
+        .text-nav > a
+        {
+            /* background-color: green; */
+            color: blue;
+            padding-top: 9px;
+        }
+        /*
+        .text-nav > a:hover
+        {
+            background-color:white;
+            color: green;
+        } */
+        .update
+        {
+            margin-top: 25px;
+            border:solid 2px black;
+        }
+        .update >ul
+        {
+            padding-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    
+<h1>软件资源网</h1>
+<!-- 基于xml的搜索功能 -->
+<input type="text" placeholder="请输入关键字">
+<button>搜索</button>
+<!-- 广告位 -->
+<div class="ad"></div>
+<div class="text-nav">
+    <a href="">首页</a>
+    <a href="">软件下载</a>
+    <!-- 二层菜单 -->
+    <!-- <p>行业软件</p> -->
+    
+    <a href="">游戏下载</a>
+
+</div>
+<!-- vue -->
+<div class="update">
+    <h2>最近更新</h2>
+    <ul>
+        <li><a class="tag">{{tag_name}}</a><a class="item">{{soft_title}}</a></li>
+        <li><a class="tag">{{tag_name}}</a><a class="item">{{soft_title}}</a></li>
+        <li><a class="tag">{{tag_name}}</a><a class="item">{{soft_title}}</a></li>
+        <li><a class="tag">{{tag_name}}</a><a class="item">{{soft_title}}</a></li>
+    </ul>
+</div>
+<!-- <h2>行业软件</h2>
+<ol>
+    <li>农业</li>
+    <li>畜牧业</li>
+    <li>工业</li>
+    <li>教育软件</li>
+    <li>文艺</li>
+    <li>土木工程</li>
+    <li>居民服务业</li>
+    <li>网络公司</li>
+
+</ol> -->
+</body>
+</html>
